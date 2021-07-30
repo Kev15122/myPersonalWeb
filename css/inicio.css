@@ -1,0 +1,34 @@
+body{
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#card1{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.contenedor{
+    display: flex !important;
+    margin: 1.5rem;
+    justify-content: center
+}
+#nombreNav{
+    font-size: 27px;
+    font-style: initial;
+    color: coral;
+}
+
+h5{
+    font-size: 40px;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+}
