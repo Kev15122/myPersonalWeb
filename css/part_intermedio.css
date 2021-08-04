@@ -13,12 +13,12 @@
 .herramientas p{
    margin-left: 10%;
    margin-top: 8%;
-   font-size: 12px;
+   font-size: 14px;
 }
 
 .herramientas h2{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 42px;
     margin-left: 9%;
     margin-right: 10%;
 }
@@ -38,7 +38,7 @@
     padding: 10px 10px;
     background-color: #347e55;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 8%;
     border: none;
     margin-bottom: 40px;
@@ -50,8 +50,9 @@
 }
 
 .img_tienda{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
+    margin-left: 10%;
 }
 
 .describir_marca h2{
@@ -60,12 +61,13 @@
     margin-right: 50px;
     text-align: center;
     font-weight: bold;
+    font-size: 38px;
 }
 
 .describir_marca p{
     text-align: center;
     margin-top: 5px;
-    font-size: 11px;
+    font-size: 13px;
     margin-top: 8px;
 }
 
@@ -75,11 +77,11 @@
 }
 
 ::placeholder{
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .consultas input{
-    padding: 0 7% 5px 10px;
+    padding: 7px 9% 7px 15px;
     border: 2px solid #2E8B57;
     border-radius: 7px;   
 }
@@ -90,8 +92,8 @@
     background-color: #339966;
     border-color: #339966;
     color: white;
-    font-size: 12px;
-    padding: 5px 13px 5px 13px;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
     border-radius: 4px;
 }
 
@@ -110,21 +112,22 @@
 
 .contenedor_item{
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .far, .fab{
     color: green;
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
     margin-top: -25px;
     justify-content: center;
 }
 
 .text{
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
