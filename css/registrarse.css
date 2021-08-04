@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+#cuenta{
+    text-align: center;
+}
+
+
+input[type="text"],input[type="password"]{
+    width: 250px; 
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contenedor_a{
+    margin-left: 24%;
+    margin-top: 75px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+    width: 18%;
+    padding-bottom: 5px;
+    background: white;
+    color: #1E90FF;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.barra_lat{
+    border-right: 20px solid black;
+
+}

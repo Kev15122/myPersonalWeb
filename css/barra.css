@@ -1,0 +1,113 @@
+
+
+.super{
+    background: #008080	;
+    grid-template-columns: 1fr 5fr;
+}
+.menu{
+    margin-left: 10%;
+    padding-bottom: 10px;
+    margin-top: -43px;
+    /*border: 1px solid olivedrab;*/
+}
+
+.logo{
+    padding-left: 15px;
+}
+
+.menu_lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_lista > li{
+    position: relative;
+}
+
+.menu_lista > li > a{
+    display: block;
+    position: relative;
+    
+}
+.menu_item1 a{
+    font-size: 16px; 
+    font-weight: initial;
+    text-decoration: underline;
+    color:white;
+}
+
+.menu_item2 a{
+    font-size: 13px; 
+    text-decoration: none;
+    color: rgba(238, 234, 234, 0.767);
+    font-size: 14px;
+}
+
+.sesion{
+    margin-right: 12%;
+}
+
+.cola{
+    margin-right: -20px;
+}
+
+.recursos{
+    margin-left: 20px;
+}
+
+.menu_item{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.menu_item a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu_lista li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+.divider{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    margin-right: 50px;
+}
+
+/*submenu*/
+.submenu{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    width: 300%;
+    background: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.cola{
+    margin-left: 10%;
+}
+
+.men a{
+    margin-top: 5px;
+}
