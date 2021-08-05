@@ -131,3 +131,55 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.preguntas{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.acordeon_principal{
+    margin: 3% 10% 5% 10%;
+}
+
+.lista_acordion{
+    list-style: none;
+}
+
+.accordion-item >h2 >button{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.espacio_mini{
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(223, 223, 223);
+}
+
+.compartir{
+    padding-left: 50%;
+    padding-top: 3%;
+}
+
+.redes{
+    margin-top: 10%;
+    margin-left: -1%;
+}
+
+.faCe{
+    margin-left: 15%;
+    margin-top: 6%;
+    width: 70px;
+    height: 90px;
+}
+
+.creador{
+    padding-left: 30%;     
+    border-left: 1px solid black;
+    padding-top: 2%;     
+}
+
+
+.arg{
+    color: rgb(97, 153, 97);
+}
